@@ -1,3 +1,5 @@
 A simple greasemonkey script to export ChatGPT conversations.
 
+When on the chatgpt site, it will give you an "Export Conversation" button. Clicking it will export the conversation in markdown writing it both to the browser console and placing it in your clipboard.
+
 Created with the [[./ai-assist/][AI-coding assist]]
