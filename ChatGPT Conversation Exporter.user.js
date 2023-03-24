@@ -18,7 +18,7 @@
         const tag = node.tagName.toLowerCase();
 
         if(tag === "pre") {
-            const language = node.querySelector(`span`).textContent || ``;
+            const language = node.querySelector(`span`)?.textContent || ``;
             const codeEl = node.querySelector(`code`);
             if(codeEl) {
                 const content = htmlToMarkdown(codeEl);
